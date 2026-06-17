@@ -17,3 +17,11 @@ I found the dimensions of simple push buttons for breadboards online and replica
 
 ![An image of the completed first model](Images/GameboyDL2A.png)
 ![An image of the push button I modeled](Images/GameboyDL2B.png)
+
+# Devlog 3
+1h 0min 15sec Logged
+
+I built the Simon Says prototype on a breadboard. I fixed four LEDs (one red, one yellow, one blue, and one green) and four push buttons into the slots. I connected all of the cathodes of the LEDs and one leg of each of the buttons to GND. I connected the red LED to D9, yellow to D8, blue to D11, and green to D10. The buttons went to digital pins 2-5. In order to make the most of each GND slot, I used WAGOs to connect four components to one slot. I will now be working on the Simon Says code. 
+
+![An image of the Simon Says prototype](Images/IMG_0001.HEIC)
+![A close-up of the breadboard](Images/IMG_0002.HEIC)
