@@ -9,3 +9,11 @@ I stared working on my Gameboy project today! I imported many of the parts that 
 
 ![Image of mini breadboard and Arduino Uno R3](Images/GameboyDL1A.png)
 ![Image of blue LED](Images/GameboyDL1B.png)
+
+# Devlog 2
+1h 0min 10sec Logged
+
+I found the dimensions of simple push buttons for breadboards online and replicated them in Onshape. With that, I finished putting together the first model of my Gameboy! It is an Anduino Uno R3 with a breadboard on the back. The breadboard has four LEDs and four buttons. The buttons are each controlled by one LED. The LEDs will flash in an increasingly complicated order, which you will have to repeat on the buttons. This is a simple Simon Says game. There is not yet a need for a case, as the wiring will be minimal. I will be replicating my model in real life next. 
+
+![An image of the completed first model](Images/GameboyDL2A.png)
+![An image of the push button I modeled](Images/GameboyDL2B.png)
