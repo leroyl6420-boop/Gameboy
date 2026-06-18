@@ -25,3 +25,11 @@ I built the Simon Says prototype on a breadboard. I fixed four LEDs (one red, on
 
 ![An image of the Simon Says prototype](Images/IMG_0001.png)
 ![A close-up of the breadboard](Images/IMG_0002.png)
+
+# Devlog 4
+55m Logged
+
+I coded part of the Simon Says prototype. I made the part where the lights flash in an ascending order. To be honest, I spent a lot of time backtrackking because I'm new to coding and I made a lot of mistakes. However, the code is working smoothly now, and I will add the playing feature next. Here are some pics of the Gameboy working.
+
+![Image of the Gameboy with one of the lights flashing0(Images/IMG_0004.JPG)
+!Image of the Gameboy with my computer (and the code) in the background](Images/IMG_0003.JPG)
