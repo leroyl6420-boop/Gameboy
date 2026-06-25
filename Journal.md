@@ -33,3 +33,11 @@ I coded part of the Simon Says prototype. I made the part where the lights flash
 
 ![Image of the Gameboy with one of the lights flashing](Images/IMG_0004.JPG)
 ![Image of the Gameboy with my computer in the background](Images/IMG_0003.JPG)
+
+# Devlog 5
+1h 44min Logged
+
+I finished coding the Simon Says prototype! I coded the success pattern and the fail pattern. I even added a mechanic where the light of the button you press shines when you press it while reciting your memory, so you know that the Arduino is reading your inputs correctly! Its works quite well now, and this was the proof of concept that I needed to go all-in and build/code a full Gameboy with a joystick and an OLED. I can't wait to get started on it!
+
+![An image of the button confirmation mechanic](Images/IMG_0087.JPG)
+![An image of the fail pattern](Images/IMG_0088.JPG)
