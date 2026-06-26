@@ -41,3 +41,11 @@ I finished coding the Simon Says prototype! I coded the success pattern and the 
 
 ![An image of the button confirmation mechanic](Images/IMG_0087.JPG)
 ![An image of the fail pattern](Images/IMG_0088.JPG)
+
+# Devlog 6
+1h 8min 1sec Logged
+
+I finished modeling the finalized Gameboy! It was quite a simple matter to add the OLED and the joystick. I had learned quite a few tricks for adding non-parasolid files to Onshape, and I was able to quickly put them where I wanted. The more difficult part was modeling the case. I want the finished product to look neat, and not have wires flying all over the place, so I took some time to model a case around a duplicate of the Arduino I imported. I took down parts of some of the walls to allow wires through. I had to keep in mind how the case would be printed, and I avoid as many overhangs as possible. I finished off by fitting the case onto the assembly! Take a look!
+
+![An image of the completed Gameboy model](Images/GameboyDL3A.png)
+![An image of the Arduino's case](Images/GameboyDL3B.png)
