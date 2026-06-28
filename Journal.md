@@ -54,3 +54,13 @@ I finished modeling the finalized Gameboy! It was quite a simple matter to add t
 27min Logged
 
 I built the Gameboy V1 today! I used a joystick and an OLED for the controls and the screen, and I attached the printed case onto the back. I had stuffed a battery in the case as well, but it was only after I hammered the case on did I realize that it was already dry! It's alright, I still want to improve the hardware someday anyway. Maybe I'll add a passive buzzer. In the meantime, I can always use another battery or a USB type B cable. Take a look!
+
+![An image of the built Gameboy V1](Images/WIN_20260628_14_19_16_Pro.jpg)
+
+# Devlog 8
+39min Logged
+
+I started coding the Gameboy V1 today! I started by testing the joystick to make sure that it worked. I made a simple code that updated the serial monitor on the status of the X, Y, and SW variables of the joystick. The only problem was that the X-value rested at 419 instead of 512, but there was still plenty of margin for me. I then made a simple code that printed an "A" on the screen, which you could move. The OLED and the joystick both worked. It was fun learning how to code the OLED, as I had not done much of that before! Take a look!
+
+![An image of the Gameboy with the A on the screen](Images/WIN_20260628_14_19_45_Pro.jpg)
+![An image of the Gameboy with the A somewhere else](Images/WIN_20260628_14_19_51_Pro.jpg)
