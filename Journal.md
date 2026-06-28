@@ -49,3 +49,8 @@ I finished modeling the finalized Gameboy! It was quite a simple matter to add t
 
 ![An image of the completed Gameboy model](Images/GameboyDL3A.png)
 ![An image of the Arduino's case](Images/GameboyDL3B.png)
+
+# Devlog 7
+27min Logged
+
+I built the Gameboy V1 today! I used a joystick and an OLED for the controls and the screen, and I attached the printed case onto the back. I had stuffed a battery in the case as well, but it was only after I hammered the case on did I realize that it was already dry! It's alright, I still want to improve the hardware someday anyway. Maybe I'll add a passive buzzer. In the meantime, I can always use another battery or a USB type B cable. Take a look!
