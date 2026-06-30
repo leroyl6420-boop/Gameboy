@@ -64,3 +64,18 @@ I started coding the Gameboy V1 today! I started by testing the joystick to make
 
 ![An image of the Gameboy with the A on the screen](Images/WIN_20260628_14_19_45_Pro.jpg)
 ![An image of the Gameboy with the A somewhere else](Images/WIN_20260628_14_19_51_Pro.jpg)
+
+# Devlog 9
+1h 36min Logged
+
+I coded my first game on the Gameboy V1 today! Its a simple game where you go around collecting coins.
+
+I wanted the sprite to point the direction you were going. I don't know how to actually draw, so I just used "^", "v", "<", and ">". It actually works quite well! 
+
+I tried using a random number genreator to randomly generate coins but all it did was spew out the same sequence every time. Instead, I made 11 preset coins and made them cycle. 
+
+The way the coins work is they wait for a certain ammount of time to pass since you started, then they appear. If you go on their coordinates while they are printed, they go away. I will make a scorekeeping system next. 
+
+Things are looking good!
+
+![An image of the Coin Collecting game (alpha) with the sprite in the upper left corner and coins spawning in](Images/WIN_20260629_18_02_56_Pro.jpg)
