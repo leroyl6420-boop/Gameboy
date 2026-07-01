@@ -89,4 +89,4 @@ I also introduced a game selection system where the Gameboy enters a menu when y
 
 The way I did it was I made a variable called "game". In the loop, I wrote different if statements to see what value "game" is at. At 0, it is in the menu (it starts at 0). At 1, it enters Coin Collector (if you flick up). At 2, it enters flappy bird (if you flick down). I'm worried about the lag this may cause, because the code still has to run everything in the if statement (the entire code of the game) after checking the game state, but I don't know how to do this better right now. I hope things work out!
 
-![An image of the menu](
+![An image of the Gameboy in the menu state](WIN_20260630_18_01_16_Pro.jpg)
