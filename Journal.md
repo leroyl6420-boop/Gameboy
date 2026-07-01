@@ -90,3 +90,19 @@ I also introduced a game selection system where the Gameboy enters a menu when y
 The way I did it was I made a variable called "game". In the loop, I wrote different if statements to see what value "game" is at. At 0, it is in the menu (it starts at 0). At 1, it enters Coin Collector (if you flick up). At 2, it enters flappy bird (if you flick down). I'm worried about the lag this may cause, because the code still has to run everything in the if statement (the entire code of the game) after checking the game state, but I don't know how to do this better right now. I hope things work out!
 
 ![An image of the Gameboy in the menu state](Images/WIN_20260630_18_01_16_Pro.jpg)
+
+# Devlog 11
+47min Logged
+
+I coded the Flappy Bird game! It was actually pretty fun. Remember, this is the third code I'm ever making, and I'm still learning a lot! Getting to make smart solutions to difficult problems is what I like to do. 
+
+First, I had to make the bird. I chose a capital "O" as a sprite. Then, I added gravity. In the sprite's display.setCursor line, I exchanged the y-value with h (for height). I made an integer called hi (for height-inertia). Every 100ms, hi goes down by one. If the Arduino senses that the joystick has been flicked up, hi will be set to 5. I set h to h-hi (because lower y-value means higher on the screen). Every time the game restarts, h is set to 30. 
+
+Next, I added the obstacles. I used two horizontal lines, like "||". I printed a pair at y = 0, 10, 60, and 50 for each refresh. For their x-value, I set x to 120 initially, and made it go down by 2 every 100ms. I simply replaced the x-value with x in each of the "||"'s display.print line. In order to give the players a break, I made sure that the pipes were spaced properly apart. When they reach x = 0, time is reset, giving the players 1 second before the next pipe comes. This also applies to the start of the game. 
+
+Finally, I had to add a losing mechanic. I made a seperate game mode (game mode 3) to act as a death screen. I'll be able to reuse this death screen in later games to save storage space. If h ever reaches below 0 or above 60, they will be sent to the game over screen. The hitboxes for the pipes were a little harder. I found the sizes of the pipes and the bird, and I made lots of if statements to determine if the bird is hitting a pipe or not. It starts with wether the pipes have reached the stationary bird (if x < 36 && x > 24). Then, it sees if the top of the bird is touching the top pipes or if the bottom of the bird is touching the bottom pipes (if h < 18 and if h > 42). Remember, the pipes and the bird are each 6 pixels wide and 8 pixels tall. The cursor prints text such that it remains at the top left. The game variable is set to 3 if any of these criteria are met. 
+
+I should add a final game and a scoring mechanic to Flappy Bird Next! 
+
+![An image of Flappy Bird gameplay](Images/IMG_0096.JPG)
+![An image of the Gameboy on its Game Over screen](Images/IMG_0097.JPG)
