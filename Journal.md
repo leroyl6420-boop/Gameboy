@@ -79,3 +79,14 @@ The way the coins work is they wait for a certain ammount of time to pass since 
 Things are looking good!
 
 ![An image of the Coin Collecting game (alpha) with the sprite in the upper left corner and coins spawning in](Images/WIN_20260629_18_02_56_Pro.jpg)
+
+# Devlog 10
+35min Logged
+
+I finsihed coding the coin collection game. I added a score system, displayed on the upper right hand corner.
+
+I also introduced a game selection system where the Gameboy enters a menu when you boot it up. You can flick the joystick in multiple directions in order to choose games. Right now, I just have a placeholder game with the coin collection game to test the system. That placeholder game is Flappy Bird. It works well. 
+
+The way I did it was I made a variable called "game". In the loop, I wrote different if statements to see what value "game" is at. At 0, it is in the menu (it starts at 0). At 1, it enters Coin Collector (if you flick up). At 2, it enters flappy bird (if you flick down). I'm worried about the lag this may cause, because the code still has to run everything in the if statement (the entire code of the game) after checking the game state, but I don't know how to do this better right now. I hope things work out!
+
+![An image of the menu](
