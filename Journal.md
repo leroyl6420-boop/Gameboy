@@ -123,3 +123,10 @@ Another problem that I encountered was running out of storage space. I was almos
 ![An image of the Gameboy in its Number Guessing game play state](Images/WIN_20260702_07_47_34_Pro.jpg)
 ![An image of the Gameboy in its Number Guessing game win state](Images/WIN_20260702_07_47_21_Pro.jpg)
 
+# Devlog 13
+32min Logged
+
+I finished optimizing the code! I made two functions that brought down the size of the code a lot. I also surrounded every text print with F() to lower the SRAM usage. Those two tricks helped! The Gameboy is looking good on storage again! That being said, I left the fourth game slot blank. It reads, "Code Your Own Game Here!"! I'll work on sound effects for the Gameboy V2 next. We'll be getting back to building!
+
+![An image of the Gameboy's new menu: an open slot reading "Custom"](Images/WIN_20260702_09_23_38_Pro.jpg)
+![What you see when you choose "Custom": some nice text!](Images/WIN_20260702_09_23_44_Pro.jpg)
