@@ -106,3 +106,20 @@ I should add a final game and a scoring mechanic to Flappy Bird Next!
 
 ![An image of Flappy Bird gameplay](Images/IMG_0096.JPG)
 ![An image of the Gameboy on its Game Over screen](Images/IMG_0097.JPG)
+
+# Devlog 12
+1h 4min Logged
+
+I improved the Flappy Bird game and coded a Number Guessing game today!
+
+First, I decided that the frequency of the pipes in Flappy Bird was too low. I decided to make them come faster. Gameplay is more exciting now! 
+
+Next, I decided to code a new game. I decided to go with a classic Number Guessing game. The code consists of guessing a number, then being told wether that number is too big or too small. It took a while to get everything done, but I'll spare you the details because it was very basic work. 
+
+A problem that I did have was the fact that the random number generator wasn't actually random. This was a problem that I encountered while coding my Simon Says prototype. To fix this, I gave the random number generator a seed. This seed is based off the reading of the floating analog pin 2. The random number generator works well now. 
+
+Another problem that I encountered was running out of storage space. I was almost done with the Number Guessing game when this happened. The Arduino simply refused to take the code. Thankfully, I found a bit of repetitive code that I was able to delete to buy me just enough storage to squeeze this last game in. However, I want people to be able to code their own games onto this Gameboy, and I don't want them to have to choose between games to delete. So, I will have to spend some time optimizing the code. 
+
+![An image of the Gameboy in its Number Guessing game play state](Images/WIN_20260702_07_47_34_Pro.jpg)
+![An image of the Gameboy in its Number Guessing game win state](Images/WIN_20260702_07_47_21_Pro.jpg)
+
